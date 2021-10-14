@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/Js/jquery-3.6.0.min.js"></script>
+    <script src="assets/Js/script.js"></script>
+    
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="section-heading">
+                <h1 class="section-title">
+                    FTL: Прямая машина
+                </h1>
+                <div class="section-route">
+
+                    <div class="section_number">
+                        <h4 class="number">1</h4>
+                        <h3 class="route">Маршрут</h3>
+                    </div>
+
+                    <div class="from-where">
+                        <p class="text">Откуда</p>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="where">
+                        <p class="text">Куда</p>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+
+                <div class="section-transport">
+
+                    <div class="section_number">
+                        <h4 class="number">2</h4>
+                        <h3 class="route">Транспорт</h3>
+                    </div>
+
+                    <div class="menu">
+                       
+                        <div class="loadCapacity">
+                            <p class="text">Грузоподъёмность</p>
+
+                            <div class="navigation">
+                                <select name="" class="menu_" id="menu_2">
+                                    <option selected="selected" disabled="disabled" hidden value="">Не выбрана</option>
+                                    <option value="1">Вариант 1</option>
+                                    <option value="2">Вариант 2</option>
+                                    <option value="3">Вариант 3</option>
+                                    <option value="4">Вариант 4</option>
+                                    <option value="5">Вариант 5</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="loadCapacity">
+                            <p class="text">Способ погрузки</p>
+
+                            <div class="navigation">
+                                <select name="" class="menu_">
+                                    <option selected="selected" value="">Задняя</option>
+                                    <option value="1">Вариант 1</option>
+                                    <option value="Вариант 2">Вариант 2</option>
+                                    <option value="Вариант 3">Вариант 3</option>
+                                    <option value="Вариант 4">Вариант 4</option>
+                                    <option value="Вариант 5">Вариант 5</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                
+                <div class="section-cargo">
+                    
+                    <div class="section_number">
+                        <h4 class="number">3</h4>
+                        <h3 class="route">Груз</h3>
+                    </div>
+                    
+                    
+                    
+                    <div class="loadCapacity position_">
+                            <p class="text">Тип груза</p>
+
+                            <div class="navigation">
+                                <select name="" class="menu_" id="menu_3">
+                                    <option selected="selected" disabled="disabled" hidden value="">Не выбран</option>
+                                    <option value="1">Вариант 1</option>
+                                    <option value="2">Вариант 2</option>
+                                    <option value="3">Вариант 3</option>
+                                    <option value="4">Вариант 4</option>
+                                    <option value="5">Вариант 5</option>
+                                </select>
+                            </div>
+                            </div>
+                        
+                        
+                        <div class="menu">
+                       
+                        <div class="loadCapacity position_0">
+                            <p class="text">Класс опасности</p>
+
+                            <div class="navigation">
+                                <select name="" class="menu_">
+                                    <option selected="selected" hidden value="">Класс 5 — Окисляющие вещества и органические перекиси</option>
+                                    <option value="1">Вариант 1</option>
+                                    <option value="2">Вариант 2</option>
+                                    <option value="3">Вариант 3</option>
+                                    <option value="4">Вариант 4</option>
+                                    <option value="5">Вариант 5</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="loadCapacity position_2">
+                            <p class="text">Объявленная ценность, ₽</p>
+
+                            <div class="navigation">
+                                <input type="text" id="text" placeholder="≥ 1">
+                            </div>
+                        </div>
+                        </div>
+                        
+                        
+                        
+                    
+                    
+                    <p class="para"><input id="checkbox" type="checkbox" value="text">Требуется температурный режим</p>
+                    
+                </div>
+                
+                <div class="section-time">
+                    <div class="section_number">
+                        <h4 class="number">4</h4>
+                        <h3 class="route">Время</h3>
+                    </div>
+                </div>
+                
+                <div class="from-where">
+                        <p class="text">Когда прибыть на точку</p>
+                        <div class="address">
+                            <p class="address-text">Адрес не указан</p>
+                            <div class="button">
+                               <a href="#" class="text-button">Не Выбрано</a>
+                            </div>
+                        </div>
+                        
+                        <div class="address">
+                            <p class="address-text" id="address-color">Адрес не указан</p>
+                            <div class="button" id="button-color">
+                               <a href="#" class="text-button">Не Выбрано</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="from-where">
+                        <p class="text">Комментарий к заказу</p>
+                        <textarea placeholder="Укажите особенности въезда на территорию склада или подъезда к адресу" class="last-text">
+                        </textarea>
+                    </div>
+                
+                
+            </div>
+        </div>
+        
+
+    </section>
+    
+    
+    
+    
+    
+
+    
+    
+</body>
+
+</html>
